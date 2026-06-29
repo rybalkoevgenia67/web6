@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background: #fff5f7;
+    color: #5f4b53;
+}
+
+.card {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(243, 183, 201, 0.18);
+}
+
+.big-card {
+    max-width: 1200px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #b86b82;
+    font-size: 34px;
+}
+
+.author {
+    color: #b4909c;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #f2d5dd;
+    border-radius: 14px;
+    background: #fffafb;
+    box-sizing: border-box;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #e5a9bb;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.checkbox input {
+    width: auto;
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+    background: #e9a7b9;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover {
+    background: #de8fa6;
+}
+
+.message {
+    margin-top: 8px;
+    color: #d65c7d;
+    font-size: 14px;
+}
+
+.error {
+    border-color: #e26d8a !important;
+    background: #fff1f4;
+}
+
+.success {
+    padding: 18px;
+    background: #fff0f4;
+    border: 2px solid #f3cad6;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.credentials {
+    background: #fff2f6;
+    border: 2px solid #f5ccd8;
+    border-radius: 18px;
+    padding: 22px;
+    margin-bottom: 25px;
+}
+
+.credentials h3 {
+    margin-top: 0;
+    color: #bf6984;
+}
+
+.hint {
+    color: #aa7c89;
+    font-size: 14px;
+}
+
+.auth-links,
+.bottom-link {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.auth-links a,
+.bottom-link a {
+    color: #bf6984;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.auth-links a:hover,
+.bottom-link a:hover {
+    text-decoration: underline;
+}
+
+.applications-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(320px, 1fr)
+    );
+    gap: 20px;
+}
+
+.application-item {
+    background: #fffafb;
+    border: 2px solid #f5d8e0;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.application-item h3 {
+    margin-top: 10px;
+    color: #bf6984;
+}
+
+.app-id {
+    color: #cc92a2;
+    font-size: 14px;
+}
+
+.date {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #b79ca5;
+}
